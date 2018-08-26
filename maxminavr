@@ -1,0 +1,13 @@
+"""
+Create a function that takes a list of numbers and returns the following statistics:
+Minimum Value
+Maximum Value
+Sequence Length
+Average Value
+"""
+def minMaxLengthAverage(arr):
+    myMin = min(arr)
+    myMax = max(arr)
+    myLen = len(arr)
+    myAvg = sum(arr)/myLen
+    return [myMin,myMax,myLen,myAvg]
